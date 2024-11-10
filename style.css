@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background: #f7f1ec;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-1 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.content-1 {
+  width: 500px;
+  height: 70vh;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  background-color: #669bbc;
+  background-image: url(coffee.jpeg);
+  background-position: center;
+  background-size: cover;
+}
+
+/* Here Start  Content-2 */
+.content-2 {
+  width: 500px;
+  position: relative;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  align-items: center;
+  background-color: #fff;
+}
+
+.social-icon {
+  justify-content: center;
+  display: flex;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.fa-facebook-f,
+.fa-google-plus-g,
+.fa-linkedin-in {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #433e3f;
+  padding: 10px;
+  border-radius: 50%;
+  color: red;
+}
+
+input[type="text"],
+input[type="password"] {
+  width: 70%;
+  height: 50px;
+  margin-top: 20px;
+  padding: 0 12px;
+  font-size: 15px;
+  letter-spacing: 1px;
+  align-items: center;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  background-color: #364958;
+  color: white;
+}
+
+.text-password {
+  margin-top: 20px;
+  font-size: 17px;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+::placeholder {
+  color: #fff;
+}
+
+.btn-1 {
+  width: 160px;
+  padding: 10px 25px;
+  margin-top: 20px;
+  font-size: 17px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-radius: 20px;
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+  color: #433e3f;
+}
+
+.btn-1:hover {
+  transition: all 2s;
+  background-color: #669bbc;
+  color: #fff;
+}
